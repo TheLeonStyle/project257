@@ -1,0 +1,11 @@
+@use "sass:math";
+
+$maxWidthContainer: 1170px;
+$containerPadding: 30px;
+
+[class*="__container"] {
+	max-width: $maxWidthContainer;
+	box-sizing: content-box;
+	margin: 0 auto;
+	padding: 0 math.div($containerPadding, 2);
+}

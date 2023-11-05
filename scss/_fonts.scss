@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "Georgia";
+	src:
+		url("../fonts/Georgia/Georgia-Bold.woff2") format("woff2"),
+		url("../fonts/Georgia/Georgia-Bold.woff") format("woff"),
+		url("../fonts/Georgia/Georgia-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "TildaSans";
+	src:
+		url("../fonts/TildaSans/tilda-sans_light.woff2") format("woff2"),
+		url("../fonts/TildaSans/tilda-sans_light.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
